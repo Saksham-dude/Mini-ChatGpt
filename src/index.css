@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #14161d;
+  color: #eef0f4;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar matching design */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #14161d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2b2f3d;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b4154;
+}
+

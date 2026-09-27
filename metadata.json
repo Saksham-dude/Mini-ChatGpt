@@ -1,0 +1,10 @@
+{
+  "name": "Remix Mini ChatGPT",
+  "description": "An AI-powered study assistant and problem solver with specialized modes for general help, math, essays, coding, and concept explanation.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
